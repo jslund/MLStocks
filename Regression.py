@@ -6,8 +6,7 @@ from sklearn import preprocessing,cross_validation,svm
 from sklearn.linear_model import LinearRegression
 
 #ENV
-os.environ['HTTP_PROXY'] = "http://avivagroup\lundj1:Change123@internet_proxy2.via.novonet:80"
-os.environ['HTTPS_PROXY'] = "https://avivagroup\lundj1:Change123@internet_proxy2.via.novonet:80"
+
 
 
 df = quandl.get("WIKI/GOOGL",)
